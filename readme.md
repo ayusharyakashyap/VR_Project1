@@ -115,15 +115,15 @@ The models were evaluated using the following metrics:
 - The choice of **optimizer and dropout rate** significantly impacts CNN performance, with **Adam** generally outperforming **SGD**.
 - Machine learning models, although simpler, struggle to capture the spatial features as effectively as CNNs.
 
-## 🚀 How to Run the Code
+## How to Run the Code
 
-### 🔹 Prerequisites
+### Prerequisites
 Ensure you have the following dependencies installed:
 ```bash
 pip install numpy opencv-python matplotlib scikit-learn scikit-image tensorflow keras
 ```
 
-### 🔹 Steps to Execute
+### Steps to Execute
 1. Clone the repository:
    ```bash
    git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
@@ -135,7 +135,7 @@ pip install numpy opencv-python matplotlib scikit-learn scikit-image tensorflow 
    python face_mask_cnn.py  # Runs Task B
    ```
 
-### 📌 Expected Outputs:
+### Expected Outputs:
 - **Task A:** Model evaluation results, including accuracy for **SVM (86.4%)** and **MLP (88.7%)**.
 - **Task B:** CNN training results, with the best accuracy achieved using **Adam (95.2%)**.
 
