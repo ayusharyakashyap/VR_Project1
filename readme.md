@@ -38,8 +38,8 @@ The dataset used for training and evaluation is stored in the `Face-Mask-Detecti
 ### Machine Learning Classifiers Performance
 | Model  | Validation Accuracy |
 |--------|---------------------|
-| SVM    | 86.4%               |
-| MLP    | 88.7%               |
+| SVM    | 85.83%               |
+| MLP    | 90.59%               |
 
 ### Hyperparameters & Experiments
 ####  SVM Model
@@ -124,15 +124,14 @@ pip install numpy opencv-python matplotlib scikit-learn scikit-image tensorflow 
 ```
 
 ### Steps to Execute
-1. Clone the repository:
+1. Clone the repository into your working directory:
    ```bash
    git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
    ```
-2. Place your dataset inside the `dataset/` folder.
+2. The required dataset would be inside the `Face-Mask-Detection/dataset/` folder.
 3. Run the script to execute both Task A and Task B:
    ```bash
-   python main.py  # Runs Task A
-   python face_mask_cnn.py  # Runs Task B
+   python main.py  # Runs Task A and Task B
    ```
 
 ### Expected Outputs:
