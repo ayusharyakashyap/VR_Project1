@@ -10,6 +10,16 @@ Face mask detection is a crucial application in ensuring public safety, especial
 ## Dataset
 The dataset used for training and evaluation is stored in the `Face-Mask-Detection/dataset` directory. It consists of images labeled as either "with mask" or "without mask." The dataset is preprocessed by resizing images to 128x128 pixels and applying data augmentation techniques for improved generalization.
 
+### 🔹 Structure of Dataset
+
+```
+/dataset
+│── with_mask/        # Images of people wearing masks
+│── without_mask/     # Images of people without masks
+```
+
+Each category contains multiple grayscale images of size *64x64 pixels*.
+
 ## Task A: Machine Learning-Based Face Mask Detection
 
 ### Methodology
