@@ -113,12 +113,6 @@ The dataset can be downloaded from:
 | SGD       | 0.3     | 91.5%               |
 | SGD       | 0.5     | 90.2%               |
 
-### Machine Learning Classifiers Performance
-| Model  | Validation Accuracy |
-|--------|---------------------|
-| SVM    | 86.4%               |
-| MLP    | 88.7%               |
-
 ## Evaluation Metrics
 The models were evaluated using the following metrics:
 - **Accuracy:** Measures the proportion of correctly classified images.
