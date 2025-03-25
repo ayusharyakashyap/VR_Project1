@@ -13,7 +13,7 @@ The dataset used for training and evaluation is stored in the `Face-Mask-Detecti
 ### 🔹 Structure of Dataset
 
 ```
-/dataset
+Face-Mask-Detection/dataset
 │── with_mask/        # Images of people wearing masks
 │── without_mask/     # Images of people without masks
 ```
